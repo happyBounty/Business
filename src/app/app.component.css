@@ -1,0 +1,567 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', Sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', Sans-serif;
+}
+
+*::after, *::before {
+    clear: both;
+    content: '';
+    display: table;
+}
+.slide-box{
+    background-repeat: no-repeat;
+    background-image: url('../assets/image/banner-2.png');
+    background-size: cover;
+    background-position: 74% 100%;
+    width: 100%;
+    opacity: 1;
+    visibility: inherit;
+}
+.my-top-main-nav {
+    background-color: #000029;
+    padding: 10px 0
+}
+
+.focus {
+    color: #1dbde0;
+    border-bottom: 3px solid #1dbde0;
+}
+
+.main-nav {
+    background-color: #000029;
+}
+
+.top-nav i, a {
+    font-size: 1em;
+}
+
+.top-nav {
+    background-color: #1dbde0;
+}
+
+.slide-box img {
+    width: 100%;
+}
+
+.my-top-main-nav nav a img {
+    width: 170px;
+}
+
+#shop {
+    padding: 10px 15px;
+    background-color: #1dbde0;
+}
+
+.popular-product {
+    margin-top: 5vw;
+}
+
+.btn-info {
+    background-color: #1dbde0!important;
+}
+
+.popular-product h1, .sample-packs h1, .instagram h1, .most-edibles h1 {
+    color: #000029;
+    font-weight: bold;
+    font-size: 2.5vw;
+}
+
+.pro {
+    margin: 15px;
+}
+
+.pro-item {
+    margin-top: 15px;
+}
+
+.pro h1 {
+    font-size: 2.8vw;
+    height: 2.7vw;
+}
+
+.pro h2 {
+    font-size: 2vw;
+    /* height: 3.5vw; */
+}
+
+.pro a {
+    padding: 0.6vw 2.3vw;
+    font-size: 1.2vw;
+    background-color:#06a9cc;
+    color: white;
+}
+
+.top-text {
+    margin-top: 70%;
+}
+
+.my-incons ul {
+    float: right;
+    margin: auto;
+}
+
+.my-incons ul li {
+    display: inline-block;
+}
+
+.my-incons ul li a {
+    padding: 5px;
+    margin: auto;
+}
+
+.my-incons ul li a i {
+    color: white;
+}
+
+.most-edibles h2 {
+    font-size: 1.5vw;
+}
+
+.most-edibles p, .most-edibles span {
+    font-size: 1.5vw;
+}
+
+.most-edibles a {
+    font-size: 1vw;
+    padding: 0.5vw 3.2vw;
+    background-color: #06a9cc;
+    color: white;
+    border: #06a9cc;
+}
+.most-edibles a:hover{
+    border:1px solid #06a9cc;
+    background-color: white;
+    color: #06a9cc;
+}
+.pro a:hover{
+    border:1px solid #06a9cc;
+    background-color: white;
+    color: #06a9cc;
+}
+
+.most-edibles2 {
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.most-edibles2 img {
+    width: 100%;
+}
+
+.most-edibles2 p {
+    font-size: 1vw;
+}
+
+.most-edibles2 h3 {
+    font-size: 1.5vw;
+}
+
+.sample-packs h1 {
+    height: 5vw;
+}
+
+.property {
+    font-size: 0.8vw;
+}
+
+.sample-packs h4 {
+    font-size: 2vw;
+}
+
+.instagram p {
+    color: #8e8e8e;
+}
+
+.advantage h1 {
+    font-weight: bold;
+    font-size: 16px;
+    color: #06a9cc;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.advantage p {
+    color: #9999a0;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer {
+    background-image: url('../assets/image/Untitled-1.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: right;
+}
+
+.footer img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    margin: 5px;
+}
+
+.mine li {
+    display: inline-block;
+    color: white;
+    margin: 5px 10px;
+}
+
+#collapsibleNavbar ul li a {
+    color: white;
+    font-size: 1em;
+}
+
+#collapsibleNavbar ul li a:hover {
+    color: #1dbde0;
+    border-bottom: 3px solid #1dbde0;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+#collapsibleNavbar ul li a:focus {
+    color: #1dbde0;
+    border-bottom: 3px solid #1dbde0;
+}
+
+#top-text1 .container {
+    margin-top: 6%;
+}
+
+#top-text1 .container h1 {
+    /* font-family:'Myriad Pro Semibold'; */
+    font-weight: normal;
+    font-size: 4vw;
+    height: 3.8vw;
+}
+
+#top-text1 .container h2 {
+    font-weight: bold;
+    font-size: 6vw;
+    height: 8vw;
+    /* font-family:'Myriad Pro Semibold'; */
+}
+
+#top-text1 .container h3 {
+    font-size: 2vw;
+    height: 7vw;
+}
+
+#top-text1 .container button {
+    font-size: 1.5vw;
+    padding: 0.8vw 3.3vw;
+    color: white;
+    margin-bottom: 10vw;
+}
+#top-text1 .container button:hover{
+    border:1px solid #06a9cc;
+    background-color: white;
+    color: #06a9cc;
+}
+#top-nav-right-buttons {
+    float: right;
+}
+
+#top-nav-right-buttons li a i {
+    margin: auto;
+}
+
+#top-nav-right-buttons li a {
+    margin-left: 10px;
+}
+
+#top-nav-right-buttons li a:hover {
+    background-color: #1dbde0;
+}
+
+.inline-stuck {
+    display: none;
+}
+
+@media only screen and (max-width:990px) {
+    #collapsibleNavbar {
+        position: absolute;
+        background-color: #000029;
+    }
+    #collapsibleNavbar ul {
+        width: 100%;
+    }
+    .inline-stuck {
+        display: block;
+    }
+    .display-n {
+        display: none;
+    }
+    .header-row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-content: flex-start;
+        align-items: center;
+        position: relative;
+        min-height: 40px;
+    }
+    .logo-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .logo-container img {
+        width: 25vw;
+    }
+    .navbar-brand {
+        display: inline-flex;
+    }
+    .navbar-brand img {
+        height: auto;
+        position: relative;
+    }
+    #top-nav-right-buttons {
+        display: inline-block;
+    }
+    #top-nav-right-buttons li {
+        display: inline-block;
+    }
+    ;
+    #top-nav-right-buttons {
+        float: left;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .my-incons ul {
+        width: 100%;
+    }
+    .top-nav {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .popular-product {
+        margin-bottom: 0;
+    }
+    .popular-product h1, .sample-packs h1, .instagram h1, .most-edibles h1 {
+        font-size: 24px;
+    }
+    .pro h1 {
+        font-size: 8vw;
+        height: 9vw;
+    }
+    .pro h2 {
+        font-size: 6vw;
+        height: 8vw;
+    }
+    .pro a {
+        padding: 1.5vw 7vw;
+        font-size: 4vw;
+    }
+    .most-edibles p, .most-edibles span {
+        font-size: 4vw;
+    }
+    .most-edibles a {
+        font-size: 3vw;
+        padding: 1vw 3.2vw;
+    }
+    .most-edibles2 p {
+        font-size: 4vw;
+    }
+    .most-edibles2 h3 {
+        font-size: 5vw;
+    }
+    .property {
+        font-size: 3vw;
+    }
+    .sample-packs h1{
+        margin-bottom: 40px;
+    }
+    .sample-packs h4 {
+        margin-top: 3vw;
+        font-size: 5vw;
+    }
+    .advantage {
+        text-align: center;
+    }
+    .advantage h1 {
+        font-size: 4vw;
+    }
+    .advantage p {
+        font-size: 3vw;
+    }
+    .footer {
+        display: none;
+    }
+    .footer1 {
+        display: block;
+    }
+    .my-incons {
+        margin-top: -10px;
+    }
+    .popular-product h1 {
+        font-size: 24px;
+    }
+    .most-edibles h1 {
+        font-size: 20px;
+        margin: 2px!important;
+    }
+    .most-edibles {
+        margin-top: 0!important;
+    }
+    .most-edibles h2 {
+        font-size: 24px;
+    }
+    .most-edibles a{
+        padding:10px 30px;
+    }
+    #top-text1 .container h1 {
+        /* font-family:'Myriad Pro Semibold'; */
+        font-weight: normal;
+        font-size: 4vw;
+        height: 3.8vw;
+    }
+    
+    #top-text1 .container h2 {
+        font-weight: bold;
+        font-size: 6vw;
+        height: 8vw;
+        /* font-family:'Myriad Pro Semibold'; */
+    }
+    
+    #top-text1 .container h3 {
+        font-size: 3.5vw;
+        height: 7vw;
+        width: 50%;
+    }
+    
+    #top-text1 .container button {
+        font-size: 3.5vw;
+        padding: 2vw 3.3vw;
+        color: white;
+        margin-top: 8vw;
+        margin-bottom: 10vw;
+    }
+}
+
+.footer1 {
+    background-image: url('../assets/image/Untitled-1.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: right;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    .slide-box{
+        background-repeat: no-repeat;
+        background-image: url('../assets/image/banner-2.png');
+        background-size: cover;
+        background-position: 74% 100%;
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+        visibility: inherit;
+    }
+}
+@media only screen and (min-width:576px) {
+    .footer {
+        display: block;
+    }
+    .footer1 {
+        display: none;
+    }
+}
+
+.footer1-hover h4:hover {
+    color: blue;
+}
+
+.footer1 h4 {
+    font-size: 16px;
+    margin-top: 30px;
+    color: white;
+    margin-bottom:15px;
+    font-weight: bold;
+    
+}
+
+#collapsibleNavbar {
+    text-align: center;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #000029;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.sidenav a {
+    font-size: 16px;
+}
+
+.sidenav a {
+    text-decoration: none;
+    color: white;
+}
+
+.sidenav a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.sidenav a:focus {
+    text-decoration: underline;
+    color: red;
+}
+
+.my-incons ul li a:hover {
+    color: gray;
+}
