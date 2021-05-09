@@ -33,6 +33,5 @@ export class LoginComponent implements OnInit {
         break;
     }
     console.log(event.target.id + ":" + event.target.value);
-
   }
 }
