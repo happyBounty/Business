@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Router, ActivatedRoute } from '@angular/router';
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -7,13 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(private router: Router, private route:ActivatedRoute) { }
+  
   ngOnInit(): void {
   }
-  showData($event) {
-
+  loginButtonclicked($event) {
     console.log("LogIn component:loginbuttonclicked\n" + "username:" + this.username + "\n" + "password:" + this.password + "\n" + "email:" + this.email);
+    if(this.username == "kmh")
+      this.router.navigate(['dashboard']);
   }
   username = '';
   password = '';
