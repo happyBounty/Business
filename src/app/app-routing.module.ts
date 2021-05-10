@@ -6,9 +6,9 @@ import { RegisterComponent } from './register/register.component';
 import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [
   { path: '', redirectTo: 'login', pathMatch: 'full' },
-  { 
+  {
     path: 'dashboard', component: DashboardComponent,
-    loadChildren:() => import('./dashboard/dashboard.module').then(mod => mod.DashboardModule)
+    loadChildren: () => import('./dashboard/dashboard.module').then(mod => mod.DashboardModule)
     // loadChildren: './home/home.module#HomeModule'
   },
   { path: 'login', component: LoginComponent },
@@ -22,4 +22,3 @@ const routes: Routes = [
 }
 )
 export class AppRoutingModule { }
-

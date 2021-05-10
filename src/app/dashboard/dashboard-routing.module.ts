@@ -4,18 +4,16 @@ import { HomeComponent } from '../home/home.component'
 import { AboutComponent } from '../about/about.component'
 import { DashboardComponent } from '../dashboard/dashboard.component'
 const routes = [
-  // {
-  //   path: '', component: DashboardComponent,
-  //   children: [
-  //     {
-  //       path: './home', component: HomeComponent,
-  //       loadChildren: () => import('../home/home-module.module').then(mod => mod.HomeModuleModule)
-  //     },
-  //     { path: './about', component: AboutComponent }
-  //   ]
-  // }
-  { path: 'dashboard/home', component: HomeComponent, loadChildren: () => import('../home/home-module.module').then(mod => mod.HomeModuleModule) },
-  { path: 'dashboard/about', component: AboutComponent }
+  {
+    path: '', 
+    children: [
+      {
+        path: 'home', component: HomeComponent,
+        loadChildren: () => import('../home/home-module.module').then(mod => mod.HomeModuleModule)
+      },
+      { path: 'about', component: AboutComponent }
+    ]
+  }
 ];
 @NgModule({
   declarations: [],
