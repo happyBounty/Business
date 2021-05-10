@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input} from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
+import {AppComponent} from '../app.component'
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -13,6 +14,7 @@ export class LoginComponent implements OnInit {
   }
   loginButtonclicked($event) {
     console.log("LogIn component:loginbuttonclicked\n" + "username:" + this.username + "\n" + "password:" + this.password + "\n" + "email:" + this.email);
+   // AppComponent.setDashBoard(1);
     if(this.username == "kmh")
       this.router.navigate(['dashboard']);
   }

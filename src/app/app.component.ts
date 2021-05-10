@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'business';
+  Is_dashboard = 0;
+  setDashBoard(p_Dash)
+  {
+    this.Is_dashboard = p_Dash;
+  }
+
 }
